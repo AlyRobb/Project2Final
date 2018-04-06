@@ -1,0 +1,29 @@
+.background    { background-image: url("PalaceBackground01.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("Lava01.png") }
+.lava2         { background-image: url("Lava02.png")}
+.floor         { background-image: url("PalaceFloor.png")}
+.wall          { background-image: url("PalaceWall.png")}
+.star      {background-image: url("Gem.png");}
+.crown     {background-image: url("Crown.png");}
+.portal     {background-image: url("Portal.png");}
+
+.actor { position: absolute; }
+.player { background-repeat: no-repeat;
+  background-image: url("Princess.png");}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
